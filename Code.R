@@ -18,14 +18,14 @@ library(lme4)
 library(tidyverse)
 
 #Read_File
-CBC_HOT1 <-read.csv2("Desktop/Analysis_Thesis/Run/CBC_Holdout_Task1.csv")
-CBC_HOT2 <- read.csv2("Desktop/Analysis_Thesis/Run/CBC_Holdout_Task2.csv")
-CBC_HOT3 <-read.csv2("Desktop/Analysis_Thesis/Run/CBC_Holdout_Task3.csv")
-CBCT_HOT1<-read.csv2("Desktop/Analysis_Thesis/Run/Tournament_Holdout_Task1.csv")
-CBCT_HOT2 <-read.csv2("Desktop/Analysis_Thesis/Run/Tournament_Holdout_Task2.csv")
-CBCT_HOT3 <- read.csv2("Desktop/Analysis_Thesis/Run/Tournament_Holdout_Task3 (edited).csv")
-HOT4_Rank <- read_csv2("Desktop/Analysis_Thesis/Run/HOT4_CBC_CBT.csv")
-Mixed_effect <- read_csv2("Desktop/Analysis_Thesis/Run/Mixed_Effect_data.csv")
+CBC_HOT1 <-read.csv2("Analysis_Thesis/Run/CBC_Holdout_Task1.csv")
+CBC_HOT2 <- read.csv2("Analysis_Thesis/Run/CBC_Holdout_Task2.csv")
+CBC_HOT3 <-read.csv2("Analysis_Thesis/Run/CBC_Holdout_Task3.csv")
+CBCT_HOT1<-read.csv2("Analysis_Thesis/Run/Tournament_Holdout_Task1.csv")
+CBCT_HOT2 <-read.csv2("Analysis_Thesis/Run/Tournament_Holdout_Task2.csv")
+CBCT_HOT3 <- read.csv2("Analysis_Thesis/Run/Tournament_Holdout_Task3 (edited).csv")
+HOT4_Rank <- read_csv2("Analysis_Thesis/Run/HOT4_CBC_CBT.csv")
+Mixed_effect <- read_csv2("Analysis_Thesis/Run/Mixed_Effect_data.csv")
 
 
 #Rename
